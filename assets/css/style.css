@@ -1,0 +1,78 @@
+
+
+
+
+header {
+    margin-top: 0px;
+    height: 84px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: azure;
+}
+
+#name {
+    font-size: 33px;
+    margin-top: 0px;
+    margin-left: 100px;
+    height: 61px;
+    background-color: #4aaaa5;
+    margin-right: 362px;
+    text-align: center;
+    padding-top: 23px;
+    width: 242px;
+    color: #ffffff;
+}
+
+#links {
+    margin-right: 100px;
+    margin-top: -67px;
+    float: right;
+    width: 245px;
+    padding: 16px;
+    /* background: lightblue; */
+
+}
+
+.spacing{
+    width: 1px;
+    height: 19px;
+    background-color: blue;
+    float: left;
+}
+
+#about {
+    width: 74px;
+    float: left;
+}
+
+#portfolio {
+    width: 91px;
+    float: left;
+    /* margin-left: 74px; */
+}
+
+#contact {
+    width: 74px;
+    float: left;
+    text-align: right
+    /* margin-left: 74px; */
+}
+
+
+
+
+
+
+
+h1 {
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #4aaaa5:
+}
+
+h2 {
+    color: #4aaaa5;
+}
+p {
+    color: #777777;
+}
