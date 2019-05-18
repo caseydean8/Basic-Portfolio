@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+a {
+    color: #4aaaa5;
 }
 body {
     background-image: url("crossline-dots.png");
@@ -10,7 +15,7 @@ header {
     height: 84px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background: azure;
+    background: #ffffff;
     border: #dddddd;
     border-style: solid;
     border-width: 1px;
@@ -39,7 +44,7 @@ header {
     margin-right: 362px;
     text-align: center;
     padding-top: 23px;
-    width: 242px;
+    width: 272px;
     color: #ffffff;
     float: left;
 }
@@ -49,21 +54,25 @@ header {
     margin-top: 16px;
     float: right;
     width: 245px;
-    padding: 16px;
-    background: lightblue;
+    padding-top: 16px;
+    padding-bottom: 16;
+    padding-left: 16;
+    /* color: #4aaaa5; */
+    /* background: lightblue; */
 
 }
 
 .spacing{
     width: 1px;
     height: 19px;
-    background-color: blue;
+    background-color: #dddddd;
     float: left;
 }
 
 #about {
     width: 74px;
     float: left;
+    color: #4aaaa5;
 }
 
 #portfolio {
@@ -82,7 +91,7 @@ header {
 #lower {
     height: 56px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 33px;
     padding-top: 20px;
     padding-left: 20px;
     color: #4aaaa5;
@@ -95,8 +104,10 @@ header {
     background-color:#dddddd;
 }
 
-
-
+img {
+    float: left;
+    margin: 20px;
+}
 
 h1 {
     box-sizing: border-box;
@@ -109,6 +120,9 @@ h2 {
 }
 p {
     color: #777777;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #migs { 
